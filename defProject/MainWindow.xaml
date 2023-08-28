@@ -1,0 +1,63 @@
+﻿<Window x:Class="defProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:defProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <WrapPanel Name="buttonPanel" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Content="1.델리게이트"  Click="Delegate_Click"/>
+            <Button Content="2.델리게이트 이벤트"  Click="DelegateEvt_Click"/>
+            <Button Content="3.Dynamic"  Click="Dynamic_Click"/>
+            <Button Content="4.Event"  Click="Event_Click"/>
+            <Button Content="5"  Click="Button_Click"/>
+            <Button Content="6"  Click="Button_Click"/>
+            <Button Content="7"  Click="Button_Click"/>
+            <Button Content="8"  Click="Button_Click"/>
+            <Button Content="9"  Click="Button_Click"/>
+            <Button Content="10" Click="Button_Click"/>
+            <Button Content="11" Click="Button_Click"/>
+            <Button Content="12" Click="Button_Click"/>
+            <Button Content="13" Click="Button_Click"/>
+            <Button Content="14" Click="Button_Click"/>
+            <Button Content="15" Click="Button_Click"/>
+            <Button Content="16" Click="Button_Click"/>
+            <Button Content="17" Click="Button_Click"/>
+            <Button Content="18" Click="Button_Click"/>
+            <Button Content="19" Click="Button_Click"/>
+            <Button Content="20" Click="Button_Click"/>
+            <Button Content="21" Click="Button_Click"/>
+            <Button Content="22" Click="Button_Click"/>
+            <Button Content="23" Click="Button_Click"/>
+            <Button Content="24" Click="Button_Click"/>
+            <Button Content="25" Click="Button_Click"/>
+            <Button Content="26" Click="Button_Click"/>
+            <Button Content="27" Click="Button_Click"/>
+            <Button Content="28" Click="Button_Click"/>
+            <Button Content="29" Click="Button_Click"/>
+            <Button Content="30" Click="Button_Click"/>
+            <Button Content="31" Click="Button_Click"/>
+            <Button Content="32" Click="Button_Click"/>
+            <Button Content="33" Click="Button_Click"/>
+            <Button Content="34" Click="Button_Click"/>
+            <Button Content="35" Click="Button_Click"/>
+            <Button Content="36" Click="Button_Click"/>
+            <Button Content="37" Click="Button_Click"/>
+            <Button Content="38" Click="Button_Click"/>
+            <Button Content="39" Click="Button_Click"/>
+            <Button Content="40" Click="Button_Click"/>
+            <Button Content="41" Click="Button_Click"/>
+            <Button Content="42" Click="Button_Click"/>
+            <Button Content="43" Click="Button_Click"/>
+            <Button Content="44" Click="Button_Click"/>
+            <Button Content="45" Click="Button_Click"/>
+            <Button Content="46" Click="Button_Click"/>
+            <Button Content="47" Click="Button_Click"/>
+            <Button Content="48" Click="Button_Click"/>
+            <Button Content="49" Click="Button_Click"/>
+            <Button Content="50" Click="Button_Click"/>
+        </WrapPanel>
+    </Grid>
+</Window>
