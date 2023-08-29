@@ -9,7 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using LiveCharts.Wpf;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -47,7 +46,6 @@ using Xceed.Wpf.Toolkit.PropertyGrid.Commands;
 using Xceed.Wpf.Toolkit.PropertyGrid.Converters;
 using Xceed.Wpf.Toolkit.PropertyGrid.Editors;
 using Xceed.Wpf.Toolkit.Zoombox;
-using defProject;
 using defProject.DelegateEx;
 
 
