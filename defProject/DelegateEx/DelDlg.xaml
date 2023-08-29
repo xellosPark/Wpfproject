@@ -20,36 +20,36 @@
         <!-- Row 0: GroupBox with Radio Buttons -->
         <GroupBox Grid.Row="0" Header="Dough">
             <StackPanel Orientation="Horizontal" Margin="5">
-                <RadioButton Content="오리지널 (10000원)" Margin="5"/>
-                <RadioButton Content="씬 (11000원)" Margin="5"/>
+                <RadioButton x:Name="rdoDow1" GroupName="doDow" Content="오리지널 (10000원)" Margin="5"/>
+                <RadioButton x:Name="rdoDow2" GroupName="doDow" Content="씬 (11000원)" Margin="5"/>
             </StackPanel>
         </GroupBox>
 
         <!-- Row 1: GroupBox with Radio Buttons -->
         <GroupBox Grid.Row="1" Header="Edge">
             <StackPanel Orientation="Horizontal" Margin="5">
-                <RadioButton Content="리치골드 (1000원)" Margin="5"/>
-                <RadioButton Content="치즈크러스터 (2000원)" Margin="5"/>
+                <RadioButton x:Name="rdoEdge1" GroupName="doEdge" Content="리치골드 (1000원)" Margin="5"/>
+                <RadioButton x:Name="rdoEdge2" GroupName="doEdge" Content="치즈크러스터 (2000원)" Margin="5"/>
             </StackPanel>
         </GroupBox>
 
         <!-- Row 2: GroupBox with Check Buttons and Spin Control -->
         <GroupBox Grid.Row="2" Header="Toppings">
             <StackPanel Margin="5">
-                <CheckBox Content="소세지 (1es 500원)" Margin="5"/>
-                <CheckBox Content="감자 (1es 200원)" Margin="5"/>
-                <CheckBox Content="치즈 (1es 200원)" Margin="5"/>
+                <CheckBox x:Name="cboxTopping1" Content="소세지 (1es 500원)" Margin="5"/>
+                <CheckBox x:Name="cboxTopping2" Content="감자 (1es 200원)" Margin="5"/>
+                <CheckBox x:Name="cboxTopping3" Content="치즈 (1es 200원)" Margin="5"/>
                 <xctk:ButtonSpinner x:Name="numCout" Content="5" Width="50"
                                 Margin="5" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
             </StackPanel>
         </GroupBox>
 
         <!-- Row 3: Button (Right-Aligned) -->
-        <Button Grid.Row="3" Content="Order" Width="200" Height="50" HorizontalAlignment="Right" Margin="5,5,50,5"/>
+        <Button x:Name="btnOrder" Click="btnOrder_Click" Grid.Row="3" Content="Order" Width="200" Height="50" HorizontalAlignment="Right" Margin="5,5,50,5"/>
 
         <!-- Row 4: List Box -->
-        <ListBox Grid.Row="4" Margin="5" Height="250">
+        <ListBox x:Name="lboxOrder" Grid.Row="4" Margin="5" Height="250"/>
 
-        </ListBox>
+
     </Grid>
 </Window>
