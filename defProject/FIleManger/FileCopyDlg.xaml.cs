@@ -58,6 +58,7 @@ namespace defProject.FileManager
             else
             {
                 // UI 스레드가 아닌 경우
+                //수정
                 Dispatcher.Invoke(new Action<object, double>(Fm_InProgress), sender, e);
             }
         }
