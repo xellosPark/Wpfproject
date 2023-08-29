@@ -157,5 +157,8 @@
   <ItemGroup>
     <Resource Include="test.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Lee_text.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
