@@ -1,3 +1,11 @@
 ﻿
 
+leesujeong에만 올리는 commit
+
+2nd leesujeong에만 올리는 commit
+두번째 커밋
+
+local main에서 올리는 commit
+
+LEE => 1st text 수정
 main => 1st commit
