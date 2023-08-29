@@ -13,8 +13,8 @@
             <Button Content="3.Dynamic"  Click="Dynamic_Click"/>
             <Button Content="4.Event"  Click="Event_Click"/>
             <Button Content="5"  Click="Button_Click"/>
-            <Button Content="6"  Click="Button_Click"/>
-            <Button Content="7"  Click="Button_Click"/>
+            <Button Content="6.Partial"  Click="Partial_Click"/>
+            <Button Content="7.DelegateUI"  Click="DelegateUI_Click"/>
             <Button Content="8"  Click="Button_Click"/>
             <Button Content="9"  Click="Button_Click"/>
             <Button Content="10" Click="Button_Click"/>

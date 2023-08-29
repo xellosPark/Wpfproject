@@ -1,4 +1,6 @@
-﻿using defProject.FileManager;
+﻿using defProject.DelegateEx;
+using defProject.FileManager;
+using defProject.PartialManger;
 using System;
 using System.Collections.Generic;
 using System.Dynamic;
@@ -44,23 +46,23 @@ namespace defProject
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (sender is Button clickedButton)
-            {
-                //MessageBox.Show(clickedButton.Content + "이 클릭되었습니다.");
-                int buttonNumber = int.Parse(clickedButton.Content.ToString());
-                switch (buttonNumber)
-                {
-                    case 0:
-                        MessageBox.Show("버튼 0이 클릭되었습니다.");
-                        break;
-                    case 1:
-                        MessageBox.Show("버튼 1이 클릭되었습니다.");
-                        break;
-                    case 2:
-                        MessageBox.Show("버튼 2이 클릭되었습니다.");
-                        break;
-                }
-            }
+//             if (sender is Button clickedButton)
+//             {
+//                 //MessageBox.Show(clickedButton.Content + "이 클릭되었습니다.");
+//                 int buttonNumber = int.Parse(clickedButton.Content.ToString());
+//                 switch (buttonNumber)
+//                 {
+//                     case 0:
+//                         MessageBox.Show("버튼 0이 클릭되었습니다.");
+//                         break;
+//                     case 1:
+//                         MessageBox.Show("버튼 1이 클릭되었습니다.");
+//                         break;
+//                     case 2:
+//                         MessageBox.Show("버튼 2이 클릭되었습니다.");
+//                         break;
+//                 }
+//             }
         }
 
         private void Delegate_Click(object sender, RoutedEventArgs e)
@@ -120,6 +122,18 @@ namespace defProject
         {
             FileCopyDlg fileDlg = new FileCopyDlg();
             fileDlg.Show();
+        }
+
+        private void Partial_Click(object sender, RoutedEventArgs e)
+        {
+            PartiaDlg pdlg = new PartiaDlg();
+            pdlg.Show();
+        }
+
+        private void DelegateUI_Click(object sender, RoutedEventArgs e)
+        {
+            DelDlg delDlg = new DelDlg();
+            delDlg.Show();
         }
     }
 

@@ -8,7 +8,6 @@ using System.Windows;
 namespace defProject
 {
 
- 
     public class Delegate:MainWindow
     {
         delegate void MyDelegate();
@@ -20,8 +19,6 @@ namespace defProject
         // 무명 메서드
         delegate void RunDelegate(int p);
         delegate int Expr(int a, int b);
-        int num = 100;
-        double aaa = 11.11;
 
         public Delegate()
         {

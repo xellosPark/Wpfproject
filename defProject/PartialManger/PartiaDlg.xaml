@@ -1,0 +1,61 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:defProject.PartialManger"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" 
+        x:Class="defProject.PartialManger.PartiaDlg"
+        mc:Ignorable="d"
+        Title="PartiaDlg" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Row 0, Column 0: ListBox -->
+        <ListBox x:Name="iboxitem" Grid.Row="0" Grid.Column="0" Margin="3">
+        </ListBox>
+
+        <Grid Grid.Row="0" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Content="물건" Margin="3"/>
+
+            <ComboBox x:Name="combo1" Grid.Row="1" Margin="3"/>
+
+            <Label Grid.Row="2" Content="할인율(%)" Margin="3"/>
+            <ComboBox x:Name="combo2" Grid.Row="3" Margin="3"/>
+
+
+            <Label Grid.Row="4" Content="개수"/>
+            <xctk:ButtonSpinner x:Name="numCout" Spin="numCout_Spin" Content="5" Grid.Row="5"
+                                Margin="3" HorizontalAlignment="Stretch"  VerticalAlignment="Top"/>
+
+            <Button Grid.Row="7" Content="닫기" Padding="20,2,0,0" Click="Btn_Close"
+                    HorizontalAlignment="Right" Margin="0,6,5,5"/>
+
+        </Grid>
+
+        <!-- Row 1: TextBox tboxResult -->
+        <TextBox Grid.Row="1" Grid.ColumnSpan="2" x:Name="tboxResult" Margin="5"/>
+
+        <!-- Row 2: TextBox tboxErrorMsg -->
+        <TextBox Grid.Row="2" Grid.ColumnSpan="2" x:Name="tboxErrorMsg" Margin="5"/>
+    </Grid>
+</Window>
