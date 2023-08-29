@@ -135,6 +135,12 @@ namespace defProject
             DelDlg delDlg = new DelDlg();
             delDlg.Show();
         }
+
+        private void ChartEvent_Click(object sender, RoutedEventArgs e)
+        {
+            ChartEvent chartEvent = new ChartEvent();
+            chartEvent.Show();
+        }
     }
 
     class Class1

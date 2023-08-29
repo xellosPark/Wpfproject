@@ -4,26 +4,17 @@
 winexe
 C#
 .cs
-D:\1.UBISAM\WPF\2019\Test\Wpfproject\defProject\obj\Debug\
+D:\1.UBISAM\WPF\2019\Test\Wpfproject_bk\defProject\obj\Debug\
 defProject
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
-E:\001.C#\00.myProject\defProject\defProject\App.xaml
-4810882194
+D:\1.UBISAM\WPF\2019\Test\Wpfproject_bk\defProject\App.xaml
+61990988869
 
-131544513561
-1889534526
-DelegateEx\DelDlg.xaml;FIleManger\FileCopyDlg.xaml;MainWindow.xaml;PartialManger\PartiaDlg.xaml;
-=======
-D:\1.UBISAM\WPF\2019\Test\Wpfproject\defProject\App.xaml
-2-1876237976
-
-9-1560752865
-13-1505183044
-FIleManger\FileCopyDlg.xaml;MainWindow.xaml;
->>>>>>> a09a87ccb895c446bd2900397e32502e3cbd2677
+15-1442147313
+20-1071779623
+ChartEvent\ChartEvent.xaml;DelegateEx\DelDlg.xaml;FIleManger\FileCopyDlg.xaml;MainWindow.xaml;PartialManger\PartiaDlg.xaml;Themes\Generic.xaml;
 
 False
 
