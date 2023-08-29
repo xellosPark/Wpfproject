@@ -81,6 +81,13 @@ namespace defProject.DelegateEx
             if (cboxTopping2.IsChecked == true) delTopping += fTopping2;
             if (cboxTopping3.IsChecked == true) delTopping += fTopping3;
 
+            if(cboxTopping1.IsChecked == false && cboxTopping2.IsChecked == false && cboxTopping3.IsChecked == false)
+            {
+                flboxOrderRed("토핑을 선택해주세요!");
+                return;
+            }
+
+
             string currentSpinValue = (string)numCout.Content;
             int initialValue = String.IsNullOrEmpty(currentSpinValue) ? 0 : Convert.ToInt32(currentSpinValue);
 
@@ -161,7 +168,7 @@ namespace defProject.DelegateEx
             string strOrder = string.Empty;
             int iPrice = iEa * 500;
 
-            strOrder = string.Format("소세지 {0} {1} 개를 선택 하였습니다. : ({2}원 (1ea 500원)", Order, iEa, iPrice);
+            strOrder = string.Format("소세지 {0} {1} 개를 선택 하였습니다. : ({2}원 (1ea 500원))", Order, iEa, iPrice);
 
             flboxOrderRed(strOrder);
 
@@ -173,7 +180,7 @@ namespace defProject.DelegateEx
             string strOrder = string.Empty;
             int iPrice = iEa * 200;
 
-            strOrder = string.Format("감자 {0} {1} 개를 선택 하였습니다. : ({2}원 (1ea 200원)", Order, iEa, iPrice);
+            strOrder = string.Format("감자 {0} {1} 개를 선택 하였습니다. : ({2}원 (1ea 200원))", Order, iEa, iPrice);
 
             flboxOrderRed(strOrder);
 
@@ -185,7 +192,7 @@ namespace defProject.DelegateEx
             string strOrder = string.Empty;
             int iPrice = iEa * 300;
 
-            strOrder = string.Format("치즈 {0} {1} 개를 선택 하였습니다. : ({2}원 (1ea 300원)", Order, iEa, iPrice);
+            strOrder = string.Format("치즈 {0} {1} 개를 선택 하였습니다. : ({2}원 (1ea 300원))", Order, iEa, iPrice);
 
             flboxOrderRed(strOrder);
 
