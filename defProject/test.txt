@@ -1,10 +1,3 @@
-﻿brunch 생성 후, 첫 commit
+﻿
 
-두번째 커밋
-
-leesujeong에만 올리는 commit
-
-2nd leesujeong에만 올리는 commit
-두번째 커밋
-
-local main에서 올리는 commit
+main => 1st commit
