@@ -1,0 +1,26 @@
+﻿<Window x:Class="defProject.ChartEvent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:defProject"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        mc:Ignorable="d"
+        Title="ChartEvent" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.2*"/>
+            </Grid.RowDefinitions>
+
+            <lvc:CartesianChart Grid.Row="0" x:Name="chart">
+                <lvc:CartesianChart.Series>
+                    <lvc:LineSeries x:Name="Serise1" Values="{Binding Values1}" FlowDirection="LeftToRight"/>
+                </lvc:CartesianChart.Series>
+            </lvc:CartesianChart>
+
+        </Grid>
+
+    </Grid>
+</Window>
