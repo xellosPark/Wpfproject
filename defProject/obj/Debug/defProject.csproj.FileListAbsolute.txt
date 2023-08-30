@@ -48,3 +48,5 @@ E:\001.C#\00.myProject\defProject\defProject\obj\Debug\defProject.csproj.CoreCom
 E:\001.C#\00.myProject\defProject\defProject\obj\Debug\defProject.csproj.CopyComplete
 E:\001.C#\00.myProject\defProject\defProject\obj\Debug\defProject.exe
 E:\001.C#\00.myProject\defProject\defProject\obj\Debug\defProject.pdb
+E:\001.C#\00.myProject\defProject\defProject\obj\Debug\DelegateEx\SubDelDlg.g.cs
+E:\001.C#\00.myProject\defProject\defProject\obj\Debug\DelegateEx\SubDelDlg.baml

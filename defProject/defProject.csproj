@@ -84,6 +84,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DelegateEx\SubDelDlg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FIleManger\FileCopyDlg.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -104,6 +108,9 @@
     <Compile Include="Class\DelegateEvt.cs" />
     <Compile Include="DelegateEx\DelDlg.xaml.cs">
       <DependentUpon>DelDlg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DelegateEx\SubDelDlg.xaml.cs">
+      <DependentUpon>SubDelDlg.xaml</DependentUpon>
     </Compile>
     <Compile Include="FIleManger\FileCopy.cs" />
     <Compile Include="FIleManger\FileCopyDlg.xaml.cs">
