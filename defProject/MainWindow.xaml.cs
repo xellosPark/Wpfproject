@@ -1,6 +1,7 @@
 ﻿using defProject.DelegateEx;
 using defProject.FileManager;
 using defProject.PartialManger;
+using defProject.ThreadEx;
 using System;
 using System.Collections.Generic;
 using System.Dynamic;
@@ -140,6 +141,12 @@ namespace defProject
         {
             ChartEvent chartEvent = new ChartEvent();
             chartEvent.Show();
+        }
+
+        private void ThreadEx_Click(object sender, RoutedEventArgs e)
+        {
+            ThreadDlg threadDlg = new ThreadDlg();
+            threadDlg.Show();
         }
     }
 

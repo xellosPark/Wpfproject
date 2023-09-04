@@ -1,0 +1,18 @@
+﻿<Window x:Class="defProject.DelegateEx.SubDelDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:defProject.DelegateEx"
+        mc:Ignorable="d"
+        Title="SubDelDlg" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ListBox x:Name="lboxMake" Margin="10" />
+        <Button x:Name="btnClose" Click="btnClose_Click" Grid.Row="3" Content="전송" Width="200" Height="50" HorizontalAlignment="Right" Margin="5,5,50,5"/>
+    </Grid>
+</Window>
