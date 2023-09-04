@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\001.C#\00.myProject\defProject\defProject\App.xaml
-7848667929
+983283930
 
-17-435483701
+18-1638093278
 20-1798187573
-ChartEvent\ChartEvent.xaml;DelegateEx\DelDlg.xaml;DelegateEx\SubDelDlg.xaml;FIleManger\FileCopyDlg.xaml;MainWindow.xaml;PartialManger\PartiaDlg.xaml;Themes\Generic.xaml;
+ChartEvent\ChartEvent.xaml;DelegateEx\DelDlg.xaml;DelegateEx\SubDelDlg.xaml;FIleManger\FileCopyDlg.xaml;MainWindow.xaml;PartialManger\PartiaDlg.xaml;Themes\Generic.xaml;ThreadEx\Play.xaml;ThreadEx\ThreadDlg.xaml;
 
-True
+False
 
