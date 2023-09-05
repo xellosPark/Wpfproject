@@ -76,8 +76,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="DelegateEx\SubDelDlg.xaml.cs">
-      <DependentUpon>SubDelDlg.xaml</DependentUpon>
+    <Compile Include="ExceptionEx\defExceptionExDlg.xaml.cs">
+      <DependentUpon>defExceptionExDlg.xaml</DependentUpon>
     </Compile>
     <Compile Include="ExceptionEx\ExceptionExDlg.xaml.cs">
       <DependentUpon>ExceptionExDlg.xaml</DependentUpon>
@@ -97,12 +97,16 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DelegateEx\SubDelDlg.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ExceptionEx\defExceptionExDlg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ExceptionEx\ExceptionExDlg.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="FIleManger\FileCopyDlg.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -125,6 +129,9 @@
     <Compile Include="DelegateEx\DelDlg.xaml.cs">
       <DependentUpon>DelDlg.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DelegateEx\SubDelDlg.xaml.cs">
+      <DependentUpon>SubDelDlg.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FIleManger\FileCopy.cs" />
     <Compile Include="FIleManger\FileCopyDlg.xaml.cs">
       <DependentUpon>FileCopyDlg.xaml</DependentUpon>
@@ -142,12 +149,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="ThreadEx\Play.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ThreadEx\ThreadDlg.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -188,6 +195,5 @@
   <ItemGroup>
     <Resource Include="Lee_text.txt" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

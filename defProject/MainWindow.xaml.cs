@@ -1,4 +1,5 @@
 ﻿using defProject.DelegateEx;
+using defProject.ExceptionEx;
 using defProject.FileManager;
 using defProject.PartialManger;
 using defProject.ThreadEx;
@@ -152,6 +153,12 @@ namespace defProject
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
 
+        }
+
+        private void ExcptionEx_Click(object sender, RoutedEventArgs e)
+        {
+            defExceptionExDlg ExDlg = new defExceptionExDlg();
+            ExDlg.Show();
         }
     }
 

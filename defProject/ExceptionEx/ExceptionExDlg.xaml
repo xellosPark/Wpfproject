@@ -28,7 +28,10 @@
                 </Grid.RowDefinitions>
 
                 <!-- Label and Panel for Color -->
-                <Label Grid.Row="0" Content="Color:" />
+                <StackPanel Orientation="Horizontal">
+                    <Label Grid.Row="0"  VerticalAlignment="Center" Content="Color :" />
+                    <Label Grid.Row="0"  VerticalAlignment="Center" Content="Color:" />
+                </StackPanel>
 
                 <Grid Grid.Row="1">
                     <Grid.ColumnDefinitions>
