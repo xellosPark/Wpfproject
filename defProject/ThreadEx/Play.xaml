@@ -21,7 +21,7 @@
 
         <Label Name="lblPlayerName" Content="PlayerName" VerticalAlignment="Center" HorizontalAlignment="Center" />
 
-        <Button Name="btnStop" Content="포기" Grid.Column="1" VerticalAlignment="Center" 
+        <Button Name="btnStop" Click="btnStop_Click" Content="포기" Grid.Column="1" VerticalAlignment="Center" 
                 HorizontalAlignment="Center" Padding="30,0,30,0"/>
 
         <Label Name="lblProcess" Content="진행 상황 표시 : 0%" Grid.Column="2" VerticalAlignment="Center" Margin="6"/>

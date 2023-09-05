@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:defProject"
         mc:Ignorable="d"
+        Closing="MainWindow_Closing"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <WrapPanel Name="buttonPanel" VerticalAlignment="Center" HorizontalAlignment="Center">

@@ -148,6 +148,11 @@ namespace defProject
             ThreadDlg threadDlg = new ThreadDlg();
             threadDlg.Show();
         }
+
+        private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+
+        }
     }
 
     class Class1

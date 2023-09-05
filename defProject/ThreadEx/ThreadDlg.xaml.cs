@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -32,6 +33,8 @@ namespace defProject.ThreadEx
 
         int _locationX = 0;
         int _locationY = 0;
+
+        List<Play> lPlay = new List<Play>();
 
         public ThreadDlg()
         {
@@ -91,6 +94,8 @@ namespace defProject.ThreadEx
 
                 // 작업 시작
                 pl.fThreadStart();
+
+                lPlay.Add(pl);
             }
         }
 
@@ -112,6 +117,16 @@ namespace defProject.ThreadEx
                 });
             }
             return 0;
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            foreach (Play oPlayForm in lPlay)
+            {
+                oPlayForm.ThreadAbort();  // 프로그램 종료 시점이라서 강제로 Thread를 해제
+                Thread.Sleep(50);
+                oPlayForm.Close();
+            }
         }
     }
 }
