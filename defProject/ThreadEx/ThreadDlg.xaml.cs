@@ -82,6 +82,9 @@ namespace defProject.ThreadEx
             {
                 Play pl = new Play(((enumPlayer)i).ToString());
 
+                // 타이틀바 없애기
+                pl.WindowStyle = WindowStyle.None;
+
                 // 위치 설정
                 pl.Left = _locationX;
                 pl.Top = _locationY + pl.Height * i;

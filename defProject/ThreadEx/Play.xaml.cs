@@ -112,7 +112,7 @@ namespace defProject.ThreadEx
             {
                 exInterrupt.ToString();
             }
-            catch (Exception ex)
+            catch (Exception ex)    //ThreadAbort() 발생되면 catch 걸림
             {
                 ex.ToString();
             }
