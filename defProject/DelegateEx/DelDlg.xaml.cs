@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -22,7 +23,7 @@ namespace defProject.DelegateEx
         public delegate int delFuncDow_Edge(int i);
         public delegate int delFuncTopping(string strOrder, int Ea);
 
- 
+        Thread _thread = null;
 
         int _iTotalPrice = 0;
         public int initialValue { get; set; } = 0;
@@ -258,7 +259,29 @@ namespace defProject.DelegateEx
             Sundlg.eventdelPizzaComplete += Sundlg_eventdelPizzaComplete;
             Sundlg.Show();
 
-            Sundlg.fPizzrCheck(dPizzaOrder);
+
+            //_thread = new Thread(Sundlg.fPizzrCheck(dPizzaOrder));   // 컴파일러에서 델리게이트 객체를 추론해서 생성 후 생성 후 함수를 넘김 (new ThreadStart 생략)
+            //Thread 생성자에는 델리게이트를 전달해야 합니다.
+            _thread = new Thread(delegate() { Sundlg.fPizzrCheck(dPizzaOrder); });   // 익명메소드를 사용하여 생성 후 함수를 넘김
+            _thread.Start();
+            // 스레드에 전달할 작업을 람다식으로 정의
+//             _thread = new Thread(() =>
+//             {
+//                 try
+//                 {
+//                     // 여기에 스레드가 수행할 작업을 호출
+//                     Sundlg.fPizzrCheck(dPizzaOrder);
+//                 }
+//                 catch (Exception ex)
+//                 {
+//                     // 예외 처리
+//                     Console.WriteLine($"스레드에서 예외 발생: {ex.Message}");
+//                 }
+//             });
+            // 스레드 시작
+            //_thread.Start();
+
+            //Sundlg.fPizzrCheck(dPizzaOrder);
         }
 
         private int Sundlg_eventdelPizzaComplete(string strResult, int iTime)

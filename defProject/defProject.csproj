@@ -79,6 +79,9 @@
     <Compile Include="DelegateEx\SubDelDlg.xaml.cs">
       <DependentUpon>SubDelDlg.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ExceptionEx\ExceptionExDlg.xaml.cs">
+      <DependentUpon>ExceptionExDlg.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ThreadEx\Play.xaml.cs">
       <DependentUpon>Play.xaml</DependentUpon>
     </Compile>
@@ -96,6 +99,10 @@
     <Page Include="DelegateEx\SubDelDlg.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ExceptionEx\ExceptionExDlg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="FIleManger\FileCopyDlg.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -181,5 +188,6 @@
   <ItemGroup>
     <Resource Include="Lee_text.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
