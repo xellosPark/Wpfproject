@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Closing="MainWindow_Closing"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    
         <WrapPanel Name="buttonPanel" VerticalAlignment="Center" HorizontalAlignment="Center">
             <Button Content=" 1.델리게이트 "  Click="Delegate_Click"/>
             <Button Content=" 2.델리게이트 이벤트 "  Click="DelegateEvt_Click"/>
@@ -19,7 +19,7 @@
             <Button Content=" 8.ThreadEx "  Click="ThreadEx_Click"/>
             <Button Content=" 9.ExcptionEx1"  Click="ExcptionEx_Click"/>
             <Button Content="10" Click="Button_Click"/>
-            <Button Content="11" Click="Button_Click"/>
+            <Button Content="11.람다식 예제" Click="LambdaEx_Click"/>
             <Button Content="12" Click="Button_Click"/>
             <Button Content="13" Click="Button_Click"/>
             <Button Content="14" Click="Button_Click"/>
@@ -60,5 +60,5 @@
             <Button Content="49" Click="Button_Click"/>
             <Button Content="50" Click="Button_Click"/>
         </WrapPanel>
-    </Grid>
+    
 </Window>

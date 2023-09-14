@@ -82,6 +82,7 @@
     <Compile Include="ExceptionEx\ExceptionExDlg.xaml.cs">
       <DependentUpon>ExceptionExDlg.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LambadaEx\LambadaEx.cs" />
     <Compile Include="ThreadEx\Play.xaml.cs">
       <DependentUpon>Play.xaml</DependentUpon>
     </Compile>

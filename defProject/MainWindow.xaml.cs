@@ -1,6 +1,7 @@
 ﻿using defProject.DelegateEx;
 using defProject.ExceptionEx;
 using defProject.FileManager;
+using defProject.LambadaEx;
 using defProject.PartialManger;
 using defProject.ThreadEx;
 using System;
@@ -159,6 +160,11 @@ namespace defProject
         {
             defExceptionExDlg ExDlg = new defExceptionExDlg();
             ExDlg.Show();
+        }
+
+        private void LambdaEx_Click(object sender, RoutedEventArgs e)
+        {
+            LambadaEx1 La = new LambadaEx1();
         }
     }
 
