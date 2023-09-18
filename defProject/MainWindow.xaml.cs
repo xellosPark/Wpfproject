@@ -4,6 +4,7 @@ using defProject.FileManager;
 using defProject.LambadaEx;
 using defProject.PartialManger;
 using defProject.ThreadEx;
+using defProject.TimerEx;
 using System;
 using System.Collections.Generic;
 using System.Dynamic;
@@ -165,6 +166,12 @@ namespace defProject
         private void LambdaEx_Click(object sender, RoutedEventArgs e)
         {
             LambadaEx1 La = new LambadaEx1();
+        }
+
+        private void Timer_Click(object sender, RoutedEventArgs e)
+        {
+            ClikerDlg cdlg = new ClikerDlg();
+            cdlg.Show();
         }
     }
 

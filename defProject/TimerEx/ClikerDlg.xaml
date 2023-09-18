@@ -1,0 +1,18 @@
+﻿<Window x:Class="defProject.TimerEx.ClikerDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:defProject.TimerEx"
+        mc:Ignorable="d"
+        Title="Cliker" Height="186.427" Width="616.181">
+    <Grid Background="gray" Height="157" VerticalAlignment="Top" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="37*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lblNumber" Content="0" Height="28" Margin="10,11,10,0" VerticalAlignment="Top" Background="#FFCBC7C7"/>
+        <Label x:Name="lblNumberString" Content="0" Height="28" Margin="10,51,0,0" VerticalAlignment="Top" Background="#FFCBC7C7" HorizontalAlignment="Left" Width="135"/>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Height="28" Margin="167,51,0,0" VerticalAlignment="Top" Width="135" Click="btnStart_Click"/>
+    </Grid>
+</Window>

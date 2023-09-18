@@ -89,6 +89,9 @@
     <Compile Include="ThreadEx\ThreadDlg.xaml.cs">
       <DependentUpon>ThreadDlg.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TimerEx\ClikerDlg.xaml.cs">
+      <DependentUpon>ClikerDlg.xaml</DependentUpon>
+    </Compile>
     <Page Include="ChartEvent\ChartEvent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -154,6 +157,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ThreadEx\ThreadDlg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TimerEx\ClikerDlg.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
