@@ -86,10 +86,18 @@ namespace defProject.TimerEx
             {
                 dkeepNumber = double.Parse(sNumberList[0].ToString().Replace("E","")) * 1000;
                 string.Format("{0:n0}", dkeepNumber);
+                
             }
             sResult = String.Format("{0}{1}", sNumber, "a");
 
             return sResult;
         }
+
+        enum enumString
+        {
+            a, b, c, d, e, f, g, h, i, j,
+        }
+
+
     }
 }

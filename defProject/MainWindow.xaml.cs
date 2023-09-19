@@ -2,6 +2,7 @@
 using defProject.ExceptionEx;
 using defProject.FileManager;
 using defProject.LambadaEx;
+using defProject.LinqEx;
 using defProject.PartialManger;
 using defProject.ThreadEx;
 using defProject.TimerEx;
@@ -172,6 +173,12 @@ namespace defProject
         {
             ClikerDlg cdlg = new ClikerDlg();
             cdlg.Show();
+        }
+
+        private void LINQ_Click(object sender, RoutedEventArgs e)
+        {
+            LinqExDlg lDlg = new LinqExDlg();
+            lDlg.Show();
         }
     }
 

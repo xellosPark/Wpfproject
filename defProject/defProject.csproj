@@ -83,6 +83,9 @@
       <DependentUpon>ExceptionExDlg.xaml</DependentUpon>
     </Compile>
     <Compile Include="LambadaEx\LambadaEx.cs" />
+    <Compile Include="LinqEx\LinqExDlg.xaml.cs">
+      <DependentUpon>LinqExDlg.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ThreadEx\Play.xaml.cs">
       <DependentUpon>Play.xaml</DependentUpon>
     </Compile>
@@ -115,6 +118,10 @@
     <Page Include="FIleManger\FileCopyDlg.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LinqEx\LinqExDlg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

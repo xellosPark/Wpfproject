@@ -20,7 +20,7 @@
             <Button Content=" 9.ExcptionEx1"  Click="ExcptionEx_Click"/>
             <Button Content="10.Timer" Click="Timer_Click"/>
             <Button Content="11.람다식 예제" Click="LambdaEx_Click"/>
-            <Button Content="12" Click="Button_Click"/>
+            <Button Content="12.LINQ" Click="LINQ_Click"/>
             <Button Content="13" Click="Button_Click"/>
             <Button Content="14" Click="Button_Click"/>
             <Button Content="15" Click="Button_Click"/>
