@@ -76,17 +76,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="DelegateEx\SubDelDlg.xaml.cs">
-      <DependentUpon>SubDelDlg.xaml</DependentUpon>
+    <Compile Include="ExceptionEx\defExceptionExDlg.xaml.cs">
+      <DependentUpon>defExceptionExDlg.xaml</DependentUpon>
     </Compile>
     <Compile Include="ExceptionEx\ExceptionExDlg.xaml.cs">
       <DependentUpon>ExceptionExDlg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LambadaEx\LambadaEx.cs" />
+    <Compile Include="LinqEx\LinqExDlg.xaml.cs">
+      <DependentUpon>LinqExDlg.xaml</DependentUpon>
     </Compile>
     <Compile Include="ThreadEx\Play.xaml.cs">
       <DependentUpon>Play.xaml</DependentUpon>
     </Compile>
     <Compile Include="ThreadEx\ThreadDlg.xaml.cs">
       <DependentUpon>ThreadDlg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TimerEx\ClikerDlg.xaml.cs">
+      <DependentUpon>ClikerDlg.xaml</DependentUpon>
     </Compile>
     <Page Include="ChartEvent\ChartEvent.xaml">
       <SubType>Designer</SubType>
@@ -97,16 +104,24 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DelegateEx\SubDelDlg.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ExceptionEx\defExceptionExDlg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ExceptionEx\ExceptionExDlg.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="FIleManger\FileCopyDlg.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LinqEx\LinqExDlg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -125,6 +140,9 @@
     <Compile Include="DelegateEx\DelDlg.xaml.cs">
       <DependentUpon>DelDlg.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DelegateEx\SubDelDlg.xaml.cs">
+      <DependentUpon>SubDelDlg.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FIleManger\FileCopy.cs" />
     <Compile Include="FIleManger\FileCopyDlg.xaml.cs">
       <DependentUpon>FileCopyDlg.xaml</DependentUpon>
@@ -142,12 +160,16 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="ThreadEx\Play.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ThreadEx\ThreadDlg.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TimerEx\ClikerDlg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -188,6 +210,5 @@
   <ItemGroup>
     <Resource Include="Lee_text.txt" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,7 +1,11 @@
 ﻿using defProject.DelegateEx;
+using defProject.ExceptionEx;
 using defProject.FileManager;
+using defProject.LambadaEx;
+using defProject.LinqEx;
 using defProject.PartialManger;
 using defProject.ThreadEx;
+using defProject.TimerEx;
 using System;
 using System.Collections.Generic;
 using System.Dynamic;
@@ -152,6 +156,29 @@ namespace defProject
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
 
+        }
+
+        private void ExcptionEx_Click(object sender, RoutedEventArgs e)
+        {
+            defExceptionExDlg ExDlg = new defExceptionExDlg();
+            ExDlg.Show();
+        }
+
+        private void LambdaEx_Click(object sender, RoutedEventArgs e)
+        {
+            LambadaEx1 La = new LambadaEx1();
+        }
+
+        private void Timer_Click(object sender, RoutedEventArgs e)
+        {
+            ClikerDlg cdlg = new ClikerDlg();
+            cdlg.Show();
+        }
+
+        private void LINQ_Click(object sender, RoutedEventArgs e)
+        {
+            LinqExDlg lDlg = new LinqExDlg();
+            lDlg.Show();
         }
     }
 
